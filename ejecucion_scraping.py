@@ -1,13 +1,14 @@
 #%%
 from funciones import tomar_resultados_presidenciales, tomar_resultados_otras
 
-lista_region = [    'DE ARICA Y PARINACOTA', 
+lista_region = [    
+                    'METROPOLITANA DE SANTIAGO', 
+                    'DE ARICA Y PARINACOTA', 
                     'DE TARAPACA', 
                     'DE ANTOFAGASTA', 
                     'DE ATACAMA', 
                     'DE COQUIMBO', 
                     'DE VALPARAISO', 
-                    'METROPOLITANA DE SANTIAGO', 
                     "DEL LIBERTADOR GENERAL BERNARDO O'HIGGINS", 
                     'DEL MAULE', 
                     'DE ÑUBLE', 
@@ -19,9 +20,9 @@ lista_region = [    'DE ARICA Y PARINACOTA',
                     'DE MAGALLANES Y DE LA ANTARTICA CHILENA']
 
 
-lista_region_senatorial =   [   'DE ANTOFAGASTA', 
-                                'DE COQUIMBO', 
-                                'METROPOLITANA DE SANTIAGO', 
+lista_region_senatorial =   [   'METROPOLITANA DE SANTIAGO', 
+                                'DE ANTOFAGASTA', 
+                                'DE COQUIMBO',  
                                 "DEL LIBERTADOR GENERAL BERNARDO O'HIGGINS", 
                                 'DE ÑUBLE', 
                                 'DEL BIOBIO', 
