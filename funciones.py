@@ -115,7 +115,7 @@ def tomar_resultados_presidenciales(lista_region):
                             print(comuna, local, mesa)
             
 
-            df_resultados.to_csv("resultados_presidencial"+distrito + ".csv",encoding="utf-8")
+            df_resultados.to_csv("resultados_presidencial/"+distrito + ".csv",encoding="utf-8")
 
     driver.close()
 
@@ -202,7 +202,7 @@ def tomar_resultados_otras(eleccion, lista_region):
                             print(comuna, local, mesa)
             
 
-            df_resultados.to_csv("resultados_"+str(eleccion)+distrito + ".csv",encoding="utf-8")
+            df_resultados.to_csv("resultados_"+str(eleccion)+"/"+distrito + ".csv",encoding="utf-8")
 
     driver.close()
 
