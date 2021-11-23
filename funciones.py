@@ -13,6 +13,13 @@ from selenium.webdriver.support.ui import Select
 
 #%%
 
+tipo_eleccion = ["presidencial",
+                 "senatorial",
+                 "diputados",
+                 "cores"]
+
+#%%
+
 def tomar_lista(xpath, driver):
     '''
     Input: full xpath de una lista desplegable
