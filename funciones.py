@@ -72,6 +72,8 @@ def tomar_resultados_presidenciales(lista_region):
         select_region.select_by_visible_text(region)
         select_distrito, lista_distrito, _ = tomar_lista(xpath3, driver)
         
+        lista_distrito = ["DISTRITO 13", "DISTRITO 14"]
+        
         for distrito in lista_distrito:
             select_distrito.select_by_visible_text(distrito)
             select_comuna, lista_comuna, _ = tomar_lista(xpath4, driver)
